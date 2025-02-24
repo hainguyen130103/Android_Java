@@ -3,15 +3,11 @@ package phdhtl.khoa63.foodapp.Activity;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.foodapp.databinding.ActivityListFoodBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -22,8 +18,8 @@ import java.util.ArrayList;
 
 import phdhtl.khoa63.foodapp.Adapter.ListFoodAdapter;
 import phdhtl.khoa63.foodapp.Domain.Foods;
-import phdhtl.khoa63.foodapp.R;
-import phdhtl.khoa63.foodapp.databinding.ActivityListFoodBinding;
+
+
 
 public class ListFoodActivity extends BaseActivity {
     private ActivityListFoodBinding binding;

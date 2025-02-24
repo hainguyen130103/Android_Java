@@ -16,13 +16,14 @@ import androidx.core.view.WindowInsetsControllerCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.foodapp.R;
+
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 import phdhtl.khoa63.foodapp.Adapter.CartAdapter;
 import phdhtl.khoa63.foodapp.Domain.Foods;
-import phdhtl.khoa63.foodapp.Helper.ManagmentCart;
-import phdhtl.khoa63.foodapp.R;
+
 
 public class OrderConfirmationActivity extends AppCompatActivity {
     private TextView orderSuccessMsg, paymentMethodTxt, totalAmountText;

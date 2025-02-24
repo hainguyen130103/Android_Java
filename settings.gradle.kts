@@ -11,19 +11,15 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS) // ✅ Sửa lỗi ở đây
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://jitpack.io") // Sử dụng uri để định nghĩa URL
-        }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
-
-
-rootProject.name = "Food App"
+rootProject.name = "FOODAPP"
 include(":app")
- 

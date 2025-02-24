@@ -1,9 +1,7 @@
 package phdhtl.khoa63.foodapp.Activity;
 
 import static androidx.core.view.WindowCompat.getInsetsController;
-import static java.util.ResourceBundle.getBundle;
 
-import android.app.Activity;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
@@ -11,23 +9,24 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewOutlineProvider;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.core.view.WindowInsetsControllerCompat;
 
 import com.bumptech.glide.Glide;
+import com.example.foodapp.R;
+import com.example.foodapp.databinding.ActivityDetailBinding;
 
 import eightbitlab.com.blurview.RenderScriptBlur;
 import phdhtl.khoa63.foodapp.Domain.Foods;
 import phdhtl.khoa63.foodapp.Helper.ManagmentCart;
-import phdhtl.khoa63.foodapp.R;
-import phdhtl.khoa63.foodapp.databinding.ActivityDetailBinding;
+
+
 
 public class DetailActivity extends AppCompatActivity {
     private ActivityDetailBinding binding;
+
     private Foods object;
     private int num=1;
     private ManagmentCart managmentCart;

@@ -5,10 +5,8 @@ import static androidx.core.view.WindowCompat.getInsetsController;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,12 +17,14 @@ import androidx.core.view.WindowInsetsControllerCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.foodapp.R;
+
 import java.io.Serializable;
 import java.text.DecimalFormat;
 
 import phdhtl.khoa63.foodapp.Adapter.CartAdapter;
 import phdhtl.khoa63.foodapp.Helper.ManagmentCart;
-import phdhtl.khoa63.foodapp.R;
+
 
 public class PaymentActivity extends AppCompatActivity {
     private double totalAmount;

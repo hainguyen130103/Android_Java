@@ -5,17 +5,16 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.foodapp.R;
+import com.example.foodapp.databinding.ActivityMainBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -28,14 +27,13 @@ import java.util.ArrayList;
 
 import phdhtl.khoa63.foodapp.Adapter.BestFoodAdapter;
 import phdhtl.khoa63.foodapp.Adapter.CategoryAdapter;
-import phdhtl.khoa63.foodapp.Adapter.ListFoodAdapter;
 import phdhtl.khoa63.foodapp.Domain.Category;
 import phdhtl.khoa63.foodapp.Domain.Foods;
 import phdhtl.khoa63.foodapp.Domain.Location;
 import phdhtl.khoa63.foodapp.Domain.Price;
 import phdhtl.khoa63.foodapp.Domain.Time;
-import phdhtl.khoa63.foodapp.R;
-import phdhtl.khoa63.foodapp.databinding.ActivityMainBinding;
+
+
 
 public class MainActivity extends BaseActivity {
      private ActivityMainBinding binding;

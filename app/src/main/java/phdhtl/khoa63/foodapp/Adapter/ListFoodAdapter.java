@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
+import com.example.foodapp.R;
 
 import java.util.ArrayList;
 
@@ -23,7 +24,7 @@ import eightbitlab.com.blurview.BlurView;
 import eightbitlab.com.blurview.RenderScriptBlur;
 import phdhtl.khoa63.foodapp.Activity.DetailActivity;
 import phdhtl.khoa63.foodapp.Domain.Foods;
-import phdhtl.khoa63.foodapp.R;
+
 
 public class ListFoodAdapter extends RecyclerView.Adapter<ListFoodAdapter.viewholder> {
     ArrayList<Foods> items;

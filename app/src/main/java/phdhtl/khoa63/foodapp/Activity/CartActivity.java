@@ -1,29 +1,20 @@
 package phdhtl.khoa63.foodapp.Activity;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewOutlineProvider;
 
-import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.foodapp.databinding.ActivityCartBinding;
+
 import eightbitlab.com.blurview.RenderScriptBlur;
 import phdhtl.khoa63.foodapp.Adapter.CartAdapter;
-import phdhtl.khoa63.foodapp.Helper.ChangeNumberItemsListener;
 import phdhtl.khoa63.foodapp.Helper.ManagmentCart;
-import phdhtl.khoa63.foodapp.R;
-import android.widget.Toast;
-import android.content.Intent;
-import java.io.Serializable;
-
-import phdhtl.khoa63.foodapp.databinding.ActivityCartBinding;
-import phdhtl.khoa63.foodapp.databinding.ActivityDetailBinding;
 
 public class CartActivity extends BaseActivity {
     private ActivityCartBinding binding;

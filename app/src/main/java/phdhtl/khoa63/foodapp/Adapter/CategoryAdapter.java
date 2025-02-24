@@ -15,13 +15,15 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.foodapp.R;
 
 import java.util.ArrayList;
+
 import eightbitlab.com.blurview.BlurView;
 import eightbitlab.com.blurview.RenderScriptBlur;
 import phdhtl.khoa63.foodapp.Activity.ListFoodActivity;
 import phdhtl.khoa63.foodapp.Domain.Category;
-import phdhtl.khoa63.foodapp.R;
+
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.viewholder> {
     ArrayList<Category> items;

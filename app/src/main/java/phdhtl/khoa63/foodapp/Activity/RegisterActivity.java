@@ -14,13 +14,14 @@ import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.foodapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import phdhtl.khoa63.foodapp.R;
+
 
 public class RegisterActivity extends AppCompatActivity {
     TextInputEditText editTextEmail, getEditTextPassword, editTextUsername;

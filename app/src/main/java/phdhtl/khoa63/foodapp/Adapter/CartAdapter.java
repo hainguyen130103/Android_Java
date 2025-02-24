@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.CenterCrop;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
+import com.example.foodapp.R;
 
 import java.util.ArrayList;
 
@@ -24,8 +25,6 @@ import eightbitlab.com.blurview.RenderScriptBlur;
 import phdhtl.khoa63.foodapp.Domain.Foods;
 import phdhtl.khoa63.foodapp.Helper.ChangeNumberItemsListener;
 import phdhtl.khoa63.foodapp.Helper.ManagmentCart;
-import phdhtl.khoa63.foodapp.R;
-
 public class CartAdapter extends RecyclerView.Adapter<CartAdapter.Viewholder> {
     ArrayList<Foods> listItemSelected;
     private ManagmentCart managmentCart;
